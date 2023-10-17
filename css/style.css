@@ -2,6 +2,7 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body{
@@ -24,8 +25,45 @@ header>img{
 header>h1{
     font-size: 60px;
     font-weight: 700;
-    font-family: sans-serif;
     display: inline;
     vertical-align: middle;
 }
 
+/* MAIN SECTION */
+
+main{
+    margin: 50px 0px 0px 0px;
+}
+
+main>div{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buttons-add{
+    padding: 10px 10px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#task-add{
+    color: white;
+    border-color: darkcyan;
+    background-color: darkcyan;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+#section-add{
+    color: gray;
+    border-color: gray;
+}
+
+hr{
+    border: 2px solid lightgray;
+}
