@@ -41,6 +41,8 @@ main>div{
     margin: 0 auto;
 }
 
+/* BUTTON SECTION */
+
 .buttons-add{
     padding: 10px 10px;
     margin: 10px 0px;
@@ -65,5 +67,51 @@ main>div{
 }
 
 hr{
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
 }
+
+ul{
+    list-style-type: "\25BC";
+    margin: 10px 20px;
+}
+
+.done{
+    list-style-type: "\2713";
+    color: green;
+}
+
+.notdone{
+    list-style-type: "\2717";
+    color: red;
+}
+
+span{
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/*.editorial{
+
+}
+
+.q1goals{
+
+}
+
+.recruiting{
+
+}
+
+.mobile{
+
+}
+
+.website{
+
+}
+
+.sales{
+
+}*/
