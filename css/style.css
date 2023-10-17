@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: lightgray;
+}
+
+/* HEADER SECTION */
+
+header{
+    background-color: white;
+    padding: 20px 0px 20px 20px;
+}
+
+header>img{
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+header>h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-style: sans-serif;
+    display: inline;
+    vertical-align: middle;
+}
+
