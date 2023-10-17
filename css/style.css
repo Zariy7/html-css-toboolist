@@ -80,6 +80,10 @@ li{
     margin: 5px;
 }
 
+.left{
+    margin-left: -45px;
+}
+
 .done{
     list-style-type: "\2713";
     color: green;
