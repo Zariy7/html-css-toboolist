@@ -73,6 +73,11 @@ hr{
 ul{
     list-style-type: "\25BC";
     margin: 10px 20px;
+    padding-bottom: 20px;
+}
+
+li{
+    margin: 5px;
 }
 
 .done{
@@ -92,26 +97,33 @@ span{
     margin-left: 10px;
 }
 
-/*.editorial{
+.annotation{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
 
+.editorial{
+    background-color: lightblue;
 }
 
 .q1goals{
-
+    background-color: violet;
 }
 
 .recruiting{
-
+    background-color: green;
 }
 
 .mobile{
-
+    background-color: orange;
 }
 
 .website{
-
+    background-color: pink;
 }
 
 .sales{
-
-}*/
+    background-color: yellowgreen;
+}
